@@ -1,0 +1,758 @@
+header ul li {
+  font-size: 30px;
+  color: red;
+  font-weight: 700;
+  font-family: 'Bebas Neue',cursive; }
+
+header ul li {
+  box-shadow: 10px 12px 8px -2px rgba(237, 16, 82, 0.6);
+  -webkit-box-shadow: 10px 12px 8px -2px rgba(237, 16, 82, 0.6);
+  -moz-box-shadow: 10px 12px 8px -2px rgba(237, 16, 82, 0.6); }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none; }
+
+header {
+  height: 25vh;
+  background-color: #ca6471;
+  display: flex;
+  flex-direction: row;
+  position: sticky;
+  justify-content: space-between;
+  top: 0; }
+  header .logo img {
+    max-width: 25vh;
+    max-height: 25vh;
+    height: 25vh;
+    width: 25vw;
+    background-color: #EFDEC9;
+    border-radius: 0;
+    padding: 0;
+    margin: 0 0 0 0; }
+  header ul {
+    background-color: #ca6471;
+    list-style: none;
+    margin-right: 2rem;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+    header ul li {
+      color: #ca6471;
+      background-color: #EFDEC9;
+      margin: .3rem;
+      padding: .7rem; }
+      header ul li:hover {
+        background-color: #EDA09E;
+        border-color: #ca6471;
+        border-style: solid 3px; }
+
+.mainIndex {
+  letter-spacing: 0.085em;
+  font-family: 'Bebas Neue', cursive;
+  height: 150vh;
+  width: 100vw;
+  background-color: #2D465D;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; }
+  .mainIndex .tarjetas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-items: space-evenly; }
+  .mainIndex .tarjeta {
+    color: #FFFFFF;
+    margin-right: 150px;
+    padding: 0 20 0 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px; }
+  .mainIndex .fotoIndex img {
+    max-width: 50vw;
+    max-height: 50vh; }
+
+.mainTrabajos {
+  letter-spacing: 0.085em;
+  font-family: 'Bebas Neue', cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #2D465D; }
+  .mainTrabajos h2 {
+    color: #FFFFFF;
+    text-align: center; }
+  .mainTrabajos .fotoTrabajo img {
+    max-width: 40vw;
+    max-height: 40vh; }
+  .mainTrabajos .bloque {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 25px; }
+    .mainTrabajos .bloque .brito {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      margin: 6rem; }
+    .mainTrabajos .bloque .caserito {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      margin: 6rem; }
+    .mainTrabajos .bloque .lasQuintas {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      margin: 6rem; }
+    .mainTrabajos .bloque .clubBirra {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      margin: 6rem; }
+    .mainTrabajos .bloque .solari {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      margin: 6rem; }
+    .mainTrabajos .bloque .amsterdam {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      margin: 6rem; }
+
+body {
+  letter-spacing: 0.085em;
+  font-family: 'Bebas Neue', cursive;
+  width: 100 vw;
+  background-color: #2D465D; }
+
+.mainNosotros {
+  font-family: 'Bebas Neue', cursive;
+  margin: 0;
+  padding: 0;
+  background-color: #2D465D; }
+  .mainNosotros .padre {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem; }
+  .mainNosotros .hijo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; }
+  .mainNosotros .hijo img {
+    max-width: 50vw;
+    max-height: 50vh; }
+
+.mainDis {
+  font-family: 'Bebas Neue', cursive;
+  line-height: 2rem; }
+  .mainDis h1 {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; }
+  .mainDis .fondoDiseno {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 6rem; }
+  .mainDis .subiLogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 6rem;
+    padding: 3rem; }
+  .mainDis .cargaLogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 6rem; }
+  .mainDis .selecPrenda {
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem; }
+    .mainDis .selecPrenda label {
+      margin: 1rem; }
+    .mainDis .selecPrenda input {
+      margin: 1rem; }
+  .mainDis .tablas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; }
+
+.mainContacto {
+  color: #ca6471;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; }
+  .mainContacto form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; }
+
+footer .containe {
+  background-color: #EDA09E;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+  footer .containe .redes img {
+    max-width: 30px;
+    max-height: 30px; }
+  footer .containe .fb {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+  footer .containe .ig {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+  footer .containe .mail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+  footer .containe .telefono {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+
+footer .pagos {
+  height: 30vh;
+  width: 100vw;
+  background-color: #EFDEC9;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+  footer .pagos .metodos img {
+    max-width: 40px;
+    max-height: 40px; }
+
+@media (min-width: 517px) and (max-width: 980px) {
+  header {
+    height: 30%;
+    background-color: #ca6471;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-between;
+    top: 0; }
+    header .logo img {
+      max-width: 10vh;
+      max-height: 10vh;
+      height: 10vh;
+      width: 10vw;
+      background-color: #EFDEC9;
+      border-radius: 0;
+      padding: 0;
+      margin: 0 0 0 0; }
+    header ul {
+      height: 50vh;
+      background-color: #ca6471;
+      list-style: none;
+      margin-right: 2rem;
+      flex-wrap: nowrap;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center; }
+      header ul li {
+        color: #ca6471;
+        background-color: #EFDEC9;
+        margin: 0.1rem;
+        padding: 0rem; }
+        header ul li:hover {
+          background-color: #EDA09E;
+          border-color: #ca6471;
+          border-style: solid 3px; }
+  .mainIndex {
+    letter-spacing: 0.085em;
+    font-family: 'Bebas Neue', cursive;
+    height: 260vh;
+    width: 100vw;
+    background-color: #2D465D;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+    .mainIndex .tarjetas {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      align-items: space-evenly; }
+    .mainIndex .tarjeta {
+      color: #FFFFFF;
+      margin-right: 150px;
+      padding: 0 20 0 0;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      padding: 10px; }
+    .mainIndex .fotoIndex img {
+      max-width: 50vw;
+      max-height: 50vh; }
+  .mainTrabajos {
+    letter-spacing: 0.085em;
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2D465D; }
+    .mainTrabajos h2 {
+      color: #FFFFFF;
+      text-align: center; }
+    .mainTrabajos .fotoTrabajo img {
+      max-width: 20vw;
+      max-height: 20vh; }
+    .mainTrabajos .bloque {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      padding: 25px;
+      align-items: center;
+      justify-content: space-evenly;
+      margin: 25px; }
+      .mainTrabajos .bloque .brito {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 6rem; }
+      .mainTrabajos .bloque .caserito {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 6rem; }
+      .mainTrabajos .bloque .lasQuintas {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 6rem; }
+      .mainTrabajos .bloque .clubBirra {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 6rem; }
+      .mainTrabajos .bloque .solari {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 6rem; }
+      .mainTrabajos .bloque .amsterdam {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 6rem; }
+  body {
+    letter-spacing: 0.085em;
+    font-family: 'Bebas Neue', cursive;
+    width: 100 vw;
+    background-color: #2D465D; }
+  .mainNosotros {
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #2D465D; }
+    .mainNosotros .padre {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      margin: 5rem; }
+    .mainNosotros .hijo {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center; }
+    .mainNosotros .hijo img {
+      max-width: 50vw;
+      max-height: 50vh; }
+  .mainDis {
+    font-family: 'Bebas Neue', cursive;
+    line-height: 2rem; }
+    .mainDis h1 {
+      margin-top: 5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center; }
+    .mainDis .fondoDiseno {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      margin: 6rem; }
+    .mainDis .subiLogo {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      margin: 6rem;
+      padding: 3rem; }
+    .mainDis .cargaLogo {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      margin: 6rem; }
+    .mainDis .selecPrenda {
+      padding-bottom: 3rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      margin: 1rem; }
+      .mainDis .selecPrenda label {
+        margin: 1rem; }
+      .mainDis .selecPrenda input {
+        margin: 1rem; }
+    .mainDis .tablas {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center; }
+  .mainContacto {
+    color: #ca6471;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; }
+    .mainContacto form {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center; }
+  footer .containe {
+    background-color: #EDA09E;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+    footer .containe .redes img {
+      max-width: 15px;
+      max-height: 15px; }
+    footer .containe .fb {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center; }
+    footer .containe .ig {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center; }
+    footer .containe .mail {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center; }
+    footer .containe .telefono {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center; }
+  footer .pagos {
+    height: 50vh;
+    width: 100vw;
+    background-color: #EFDEC9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+    footer .pagos .metodos img {
+      max-width: 20px;
+      max-height: 20px; } }
+
+@media (min-width: 0px) and (max-width: 516px) {
+  header {
+    height: 100%;
+    background-color: #ca6471;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-between;
+    top: 0; }
+    header .logo img {
+      max-width: 10vh;
+      max-height: 10vh;
+      height: 10vh;
+      width: 10vw;
+      background-color: #EFDEC9;
+      border-radius: 0;
+      padding: 0;
+      margin: 0 0 0 0; }
+    header ul {
+      height: 100vh;
+      background-color: #ca6471;
+      list-style: none;
+      margin-right: 2rem;
+      flex-wrap: nowrap;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center; }
+      header ul li {
+        color: #ca6471;
+        background-color: #EFDEC9;
+        margin: 0.1rem;
+        padding: 0rem; }
+        header ul li:hover {
+          background-color: #EDA09E;
+          border-color: #ca6471;
+          border-style: solid 3px; }
+  .mainIndex {
+    letter-spacing: 0.085em;
+    font-family: 'Bebas Neue', cursive;
+    height: 500vh;
+    width: 100vw;
+    background-color: #2D465D;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+    .mainIndex .tarjetas {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      align-items: space-evenly; }
+    .mainIndex .tarjeta {
+      color: #FFFFFF;
+      margin-right: 150px;
+      padding: 0 20 0 0;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      padding: 10px; }
+    .mainIndex .fotoIndex img {
+      max-width: 50vw;
+      max-height: 50vh; }
+  .mainTrabajos {
+    letter-spacing: 0.085em;
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2D465D; }
+    .mainTrabajos h2 {
+      color: #FFFFFF;
+      text-align: center; }
+    .mainTrabajos .fotoTrabajo img {
+      max-width: 20vw;
+      max-height: 20vh; }
+    .mainTrabajos .bloque {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      padding: 25px;
+      align-items: center;
+      justify-content: space-evenly;
+      margin: 25px; }
+      .mainTrabajos .bloque .brito {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 6rem; }
+      .mainTrabajos .bloque .caserito {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 6rem; }
+      .mainTrabajos .bloque .lasQuintas {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 6rem; }
+      .mainTrabajos .bloque .clubBirra {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 6rem; }
+      .mainTrabajos .bloque .solari {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 6rem; }
+      .mainTrabajos .bloque .amsterdam {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 6rem; }
+  body {
+    letter-spacing: 0.085em;
+    font-family: 'Bebas Neue', cursive;
+    width: 100 vw;
+    background-color: #2D465D; }
+  .mainNosotros {
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #2D465D; }
+    .mainNosotros .padre {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      margin: 5rem; }
+    .mainNosotros .hijo {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center; }
+    .mainNosotros .hijo img {
+      max-width: 50vw;
+      max-height: 50vh; }
+  .mainDis {
+    font-family: 'Bebas Neue', cursive;
+    line-height: 2rem; }
+    .mainDis h1 {
+      margin-top: 5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center; }
+    .mainDis .fondoDiseno {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      margin: 6rem; }
+    .mainDis .subiLogo {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      margin: 6rem;
+      padding: 3rem; }
+    .mainDis .cargaLogo {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      margin: 6rem; }
+    .mainDis .selecPrenda {
+      padding-bottom: 3rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      margin: 1rem; }
+      .mainDis .selecPrenda label {
+        margin: 1rem; }
+      .mainDis .selecPrenda input {
+        margin: 1rem; }
+    .mainDis .tablas {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center; }
+  .mainContacto {
+    color: #ca6471;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; }
+    .mainContacto form {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center; }
+  footer .containe {
+    background-color: #EDA09E;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+    footer .containe .redes img {
+      max-width: 15px;
+      max-height: 15px; }
+    footer .containe .fb {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center; }
+    footer .containe .ig {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center; }
+    footer .containe .mail {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center; }
+    footer .containe .telefono {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center; }
+  footer .pagos {
+    height: 100vh;
+    width: 100vw;
+    background-color: #EFDEC9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+    footer .pagos .metodos img {
+      max-width: 5vw;
+      max-height: 5vh; } }

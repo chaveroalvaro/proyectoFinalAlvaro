@@ -1,0 +1,25 @@
+footer{
+    .containe {
+        background-color: $colorRosa;
+        @include flex(flex,row,space-around,center)
+        .redes img{
+            max-width: 30px;
+            max-height: 30px;
+        }
+        .fb{@include flex(flex,row,space-between,center)}
+        .ig{@include flex(flex,row,space-around,  center)}
+        .mail{@include flex(flex,row,space-around,center)}
+        .telefono{@include flex(flex,row,space-around,center)}
+    }
+
+    .pagos{
+        height: 30vh;
+        width: 100vw;
+        background-color: $colorBeige;
+        @include flex(flex,row,space-around,center)
+        .metodos img{
+            max-width:40px;
+            max-height:40px;
+        }
+    }
+}
