@@ -350,7 +350,7 @@ footer .pagos {
       margin: 6rem; }
     .mainDis .subiLogo {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: space-evenly;
       align-items: center;
       margin: 6rem;
@@ -374,7 +374,7 @@ footer .pagos {
         margin: 1rem; }
     .mainDis .tablas {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: space-evenly;
       align-items: center; }
   .mainContacto {
@@ -559,7 +559,7 @@ footer .pagos {
       margin: 6rem; }
     .mainDis .subiLogo {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: space-evenly;
       align-items: center;
       margin: 6rem;
@@ -583,7 +583,7 @@ footer .pagos {
         margin: 1rem; }
     .mainDis .tablas {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: space-evenly;
       align-items: center; }
   .mainContacto {

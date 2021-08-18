@@ -120,7 +120,7 @@
             margin:6rem;
         }
         .subiLogo{
-            @include flex (flex,row,space-evenly,center)
+            @include flex (flex,column,space-evenly,center)
             margin:6rem;
             padding: 3rem;
         }
@@ -136,7 +136,7 @@
             input{margin: 1rem;}
         }
         .tablas{
-            @include flex(flex,row,space-evenly,center)
+            @include flex(flex,column,space-evenly,center)
         }
     }
     
@@ -285,7 +285,7 @@
             margin:6rem;
         }
         .subiLogo{
-            @include flex (flex,row,space-evenly,center)
+            @include flex (flex,column,space-evenly,center)
             margin:6rem;
             padding: 3rem;
         }
@@ -301,7 +301,7 @@
             input{margin: 1rem;}
         }
         .tablas{
-            @include flex(flex,row,space-evenly,center)
+            @include flex(flex,column,space-evenly,center)
         }
     }
     
