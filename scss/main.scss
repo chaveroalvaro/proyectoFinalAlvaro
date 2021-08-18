@@ -9,56 +9,7 @@
 
 
 @media (min-width: 517px) and (max-width:980px){
-    header{
-        height: 30%;
-        background-color: $colorRojo;
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        justify-content: space-between;
-        top: 0;
-        
-        .logo img{
-            max-width: 10vh;
-            max-height: 10vh;
-            height: 10vh;
-            width: 10vw;
-            background-color: $colorBeige;
-            border-radius: 0;
-            padding: 0;
-            margin: 0 0 0 0;
-        }
-        
-        ul{
-            height: 50vh;
-            background-color: $colorRojo;
-            // display: flex;
-            list-style: none;
-            // align-items: center;
-            margin-right: 2rem;
-            flex-wrap: nowrap;
-            @include flex(flex,column,space-around,center);
-            
-            li{
-                
-                color: $colorRojo;
-                background-color: $colorBeige;
-                margin: 0.1rem;
-                padding: 0rem;
     
-                &:hover{
-                    background-color: $colorRosa ;
-                    border-color: $colorRojo;
-                    border-style: solid 3px;
-                }
-            }
-        }
-    
-    
-    
-    
-    
-        }
     .mainIndex{
         letter-spacing: 0.085em;
         font-family: 'Bebas Neue', cursive;
@@ -211,7 +162,7 @@
         }
     
         .pagos{
-            height: 50vh;
+            height: 60vh;
             width: 100vw;
             background-color: $colorBeige;
             @include flex(flex,column,space-around,center)
@@ -224,55 +175,6 @@
 }
 
 @media (min-width: 0px) and (max-width:516px) {
-    header{
-        height: 100%;
-        background-color: $colorRojo;
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        justify-content: space-between;
-        top: 0;
-        
-        .logo img{
-            max-width: 10vh;
-            max-height: 10vh;
-            height: 10vh;
-            width: 10vw;
-            background-color: $colorBeige;
-            border-radius: 0;
-            padding: 0;
-            margin: 0 0 0 0;
-        }
-        
-        ul{
-            height: 100vh;
-            background-color: $colorRojo;
-            // display: flex;
-            list-style: none;
-            // align-items: center;
-            margin-right: 2rem;
-            flex-wrap: nowrap;
-            @include flex(flex,column,space-around,center);
-            
-            li{
-                
-                color: $colorRojo;
-                background-color: $colorBeige;
-                margin: 0.1rem;
-                padding: 0rem;
-    
-                &:hover{
-                    background-color: $colorRosa ;
-                    border-color: $colorRojo;
-                    border-style: solid 3px;
-                }
-            }
-        }
-    
-    
-    
-    
-        }
     .mainIndex{
         letter-spacing: 0.085em;
         font-family: 'Bebas Neue', cursive;
@@ -426,7 +328,7 @@
         }
     
         .pagos{
-            height: 100vh;
+            height: 110vh;
             width: 100vw;
             background-color: $colorBeige;
             @include flex(flex,column,space-around,center)

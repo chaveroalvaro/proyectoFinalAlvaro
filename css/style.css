@@ -1,56 +1,9 @@
-header ul li {
-  font-size: 30px;
-  color: red;
-  font-weight: 700;
-  font-family: 'Bebas Neue',cursive; }
-
-header ul li {
-  box-shadow: 10px 12px 8px -2px rgba(237, 16, 82, 0.6);
-  -webkit-box-shadow: 10px 12px 8px -2px rgba(237, 16, 82, 0.6);
-  -moz-box-shadow: 10px 12px 8px -2px rgba(237, 16, 82, 0.6); }
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
   list-style: none; }
-
-header {
-  height: 25vh;
-  background-color: #ca6471;
-  display: flex;
-  flex-direction: row;
-  position: sticky;
-  justify-content: space-between;
-  top: 0; }
-  header .logo img {
-    max-width: 25vh;
-    max-height: 25vh;
-    height: 25vh;
-    width: 25vw;
-    background-color: #EFDEC9;
-    border-radius: 0;
-    padding: 0;
-    margin: 0 0 0 0; }
-  header ul {
-    background-color: #ca6471;
-    list-style: none;
-    margin-right: 2rem;
-    flex-wrap: wrap;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center; }
-    header ul li {
-      color: #ca6471;
-      background-color: #EFDEC9;
-      margin: .3rem;
-      padding: .7rem; }
-      header ul li:hover {
-        background-color: #EDA09E;
-        border-color: #ca6471;
-        border-style: solid 3px; }
 
 .mainIndex {
   letter-spacing: 0.085em;
@@ -268,42 +221,6 @@ footer .pagos {
     max-height: 40px; }
 
 @media (min-width: 517px) and (max-width: 980px) {
-  header {
-    height: 30%;
-    background-color: #ca6471;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    justify-content: space-between;
-    top: 0; }
-    header .logo img {
-      max-width: 10vh;
-      max-height: 10vh;
-      height: 10vh;
-      width: 10vw;
-      background-color: #EFDEC9;
-      border-radius: 0;
-      padding: 0;
-      margin: 0 0 0 0; }
-    header ul {
-      height: 50vh;
-      background-color: #ca6471;
-      list-style: none;
-      margin-right: 2rem;
-      flex-wrap: nowrap;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center; }
-      header ul li {
-        color: #ca6471;
-        background-color: #EFDEC9;
-        margin: 0.1rem;
-        padding: 0rem; }
-        header ul li:hover {
-          background-color: #EDA09E;
-          border-color: #ca6471;
-          border-style: solid 3px; }
   .mainIndex {
     letter-spacing: 0.085em;
     font-family: 'Bebas Neue', cursive;
@@ -501,7 +418,7 @@ footer .pagos {
       justify-content: space-around;
       align-items: center; }
   footer .pagos {
-    height: 50vh;
+    height: 60vh;
     width: 100vw;
     background-color: #EFDEC9;
     display: flex;
@@ -513,42 +430,6 @@ footer .pagos {
       max-height: 20px; } }
 
 @media (min-width: 0px) and (max-width: 516px) {
-  header {
-    height: 100%;
-    background-color: #ca6471;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    justify-content: space-between;
-    top: 0; }
-    header .logo img {
-      max-width: 10vh;
-      max-height: 10vh;
-      height: 10vh;
-      width: 10vw;
-      background-color: #EFDEC9;
-      border-radius: 0;
-      padding: 0;
-      margin: 0 0 0 0; }
-    header ul {
-      height: 100vh;
-      background-color: #ca6471;
-      list-style: none;
-      margin-right: 2rem;
-      flex-wrap: nowrap;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center; }
-      header ul li {
-        color: #ca6471;
-        background-color: #EFDEC9;
-        margin: 0.1rem;
-        padding: 0rem; }
-        header ul li:hover {
-          background-color: #EDA09E;
-          border-color: #ca6471;
-          border-style: solid 3px; }
   .mainIndex {
     letter-spacing: 0.085em;
     font-family: 'Bebas Neue', cursive;
@@ -746,7 +627,7 @@ footer .pagos {
       justify-content: space-around;
       align-items: center; }
   footer .pagos {
-    height: 100vh;
+    height: 110vh;
     width: 100vw;
     background-color: #EFDEC9;
     display: flex;
