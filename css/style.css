@@ -292,6 +292,8 @@ footer .pagos {
       justify-content: space-around;
       align-items: center;
       align-items: space-evenly; }
+      .mainIndex .tarjetas body {
+        height: 150vh; }
     .mainIndex .tarjeta {
       color: #FFFFFF;
       margin-right: 150px;

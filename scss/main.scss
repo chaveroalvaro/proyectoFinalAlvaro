@@ -19,7 +19,9 @@
 
         @include flex (flex, column, space-around, center) .tarjetas {
             @include flex(flex, column, space-around, center) align-items: space-evenly;
-
+                body{
+                    height: 150vh;
+                }
         }
 
         .tarjeta {
