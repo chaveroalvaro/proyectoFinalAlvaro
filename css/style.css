@@ -8,7 +8,7 @@
 .mainIndex {
   letter-spacing: 0.085em;
   font-family: 'Bebas Neue', cursive;
-  height: 150vh;
+  height: 180vh;
   width: 100vw;
   background-color: #2D465D;
   display: flex;
@@ -224,7 +224,7 @@ footer .pagos {
   .mainIndex {
     letter-spacing: 0.085em;
     font-family: 'Bebas Neue', cursive;
-    height: 260vh;
+    height: 290vh;
     width: 100vw;
     background-color: #2D465D;
     display: flex;
@@ -237,6 +237,8 @@ footer .pagos {
       justify-content: space-around;
       align-items: center;
       align-items: space-evenly; }
+      .mainIndex .tarjetas body {
+        height: 150vh; }
     .mainIndex .tarjeta {
       color: #FFFFFF;
       margin-right: 150px;

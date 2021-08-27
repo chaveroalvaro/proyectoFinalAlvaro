@@ -2,7 +2,7 @@
 .mainIndex{
     letter-spacing: 0.085em;
     font-family: 'Bebas Neue', cursive;
-    height: 150vh;
+    height: 180vh;
     width: 100vw;
     background-color: $colorAzul;
     @include flex (flex,column,space-around,center)
