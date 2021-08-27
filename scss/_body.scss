@@ -7,6 +7,7 @@
     background-color: $colorAzul;
     @include flex (flex,column,space-around,center)
     .tarjetas{
+        
         @include flex(flex,row,space-around,center)
         align-items: space-evenly;
         
@@ -17,11 +18,74 @@
         padding: 0 20 0 0;
         text-align: center;
         @include flex(flex,column,space-around,center)
-        padding: 10px;
+    }
+    .btn1{
+        padding: 15px 25px;
+        margin: 20px;
+        font-size: 20px;
+        border: 2px solid $colorRosa;
+        cursor: pointer;
+        background: linear-gradient(to rigth, transparent 50%, #ca6471);
+        background-size: 200%;
+        background-position: left;
+        transition: background-position 0.5s;
+    }
+    .btn1:hover{
+        background-position:right ;
+        color: black;
+        font-weight: 700;
+    }
+    .btn2{
+        padding: 15px 25px;
+        margin: 20px;
+        font-size: 20px;
+        border: 2px solid $colorRosa;
+        cursor: pointer;
+        background: linear-gradient(to rigth, transparent 50%, #ca6471);
+        background-size: 200%;
+        background-position: left;
+        transition: background-position 0.5s;
+    }
+    .btn2:hover{
+        background-position:right ;
+        color: black;
+        font-weight: 700;
+    }
+    .btn3{
+        padding: 15px 25px;
+        margin: 20px;
+        font-size: 20px;
+        border: 2px solid $colorRosa;
+        cursor: pointer;
+        background: linear-gradient(to rigth, transparent 50%, #ca6471);
+        background-size: 200%;
+        background-position: left;
+        transition: background-position 0.5s;
+    }
+    .btn3:hover{
+        background-position:right ;
+        color: black;
+        font-weight: 700;
+    }
+    .btn4{
+        padding: 15px 25px;
+        margin: 20px;
+        font-size: 20px;
+        border: 2px solid $colorRosa;
+        cursor: pointer;
+        background: linear-gradient(to rigth, transparent 50%, #ca6471);
+        background-size: 200%;
+        background-position: left;
+        transition: background-position 0.5s;
+    }
+    .btn4:hover{
+        background-position:right ;
+        color: black;
+        font-weight: 700;
     }
     .fotoIndex img {
-        max-width: 50vw;
-        max-height: 50vh;
+        max-width: 48vw;
+        max-height: 48vh;
     }
 }
 
