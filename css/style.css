@@ -488,10 +488,8 @@ footer .pagos {
         max-width: 20px;
         max-height: 20px; }
   body .imagenError {
-    width: 50vw;
-    height: 50vh;
-    max-width: 20px;
-    max-height: 20px; } }
+    width: 100vw;
+    height: 100vh; } }
 
 @media (min-width: 0px) and (max-width: 516px) {
   .mainIndex {
@@ -702,5 +700,5 @@ footer .pagos {
       max-width: 5vw;
       max-height: 5vh; }
   .bodyError .imagenError {
-    height: 50px;
-    width: 50px; } }
+    height: 100vh;
+    width: 100vw; } }
