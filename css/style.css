@@ -29,11 +29,66 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
-    padding: 10px; }
+    align-items: center; }
+  .mainIndex .btn1 {
+    padding: 15px 25px;
+    margin: 20px;
+    font-size: 20px;
+    border: 2px solid #EDA09E;
+    cursor: pointer;
+    background: linear-gradient(to rigth, transparent 50%, #ca6471);
+    background-size: 200%;
+    background-position: left;
+    transition: background-position 0.5s; }
+  .mainIndex .btn1:hover {
+    background-position: right;
+    color: black;
+    font-weight: 700; }
+  .mainIndex .btn2 {
+    padding: 15px 25px;
+    margin: 20px;
+    font-size: 20px;
+    border: 2px solid #EDA09E;
+    cursor: pointer;
+    background: linear-gradient(to rigth, transparent 50%, #ca6471);
+    background-size: 200%;
+    background-position: left;
+    transition: background-position 0.5s; }
+  .mainIndex .btn2:hover {
+    background-position: right;
+    color: black;
+    font-weight: 700; }
+  .mainIndex .btn3 {
+    padding: 15px 25px;
+    margin: 20px;
+    font-size: 20px;
+    border: 2px solid #EDA09E;
+    cursor: pointer;
+    background: linear-gradient(to rigth, transparent 50%, #ca6471);
+    background-size: 200%;
+    background-position: left;
+    transition: background-position 0.5s; }
+  .mainIndex .btn3:hover {
+    background-position: right;
+    color: black;
+    font-weight: 700; }
+  .mainIndex .btn4 {
+    padding: 15px 25px;
+    margin: 20px;
+    font-size: 20px;
+    border: 2px solid #EDA09E;
+    cursor: pointer;
+    background: linear-gradient(to rigth, transparent 50%, #ca6471);
+    background-size: 200%;
+    background-position: left;
+    transition: background-position 0.5s; }
+  .mainIndex .btn4:hover {
+    background-position: right;
+    color: black;
+    font-weight: 700; }
   .mainIndex .fotoIndex img {
-    max-width: 50vw;
-    max-height: 50vh; }
+    max-width: 48vw;
+    max-height: 48vh; }
 
 .mainTrabajos {
   letter-spacing: 0.085em;
@@ -224,7 +279,7 @@ footer .pagos {
   .mainIndex {
     letter-spacing: 0.085em;
     font-family: 'Bebas Neue', cursive;
-    height: 260vh;
+    height: 350vh;
     width: 100vw;
     background-color: #2D465D;
     display: flex;
@@ -427,7 +482,10 @@ footer .pagos {
     align-items: center; }
     footer .pagos .metodos img {
       max-width: 20px;
-      max-height: 20px; } }
+      max-height: 20px; }
+  .bodyError img {
+    width: 50px;
+    height: 50px; } }
 
 @media (min-width: 0px) and (max-width: 516px) {
   .mainIndex {
@@ -636,4 +694,7 @@ footer .pagos {
     align-items: center; }
     footer .pagos .metodos img {
       max-width: 5vw;
-      max-height: 5vh; } }
+      max-height: 5vh; }
+  .bodyError .imagenError {
+    height: 50px;
+    width: 50px; } }
