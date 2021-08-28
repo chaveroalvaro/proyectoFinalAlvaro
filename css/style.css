@@ -177,6 +177,7 @@ body {
     max-height: 50vh; }
 
 .mainDis {
+  color: #EFDEC9;
   font-family: 'Bebas Neue', cursive;
   line-height: 2rem; }
   .mainDis h1 {
@@ -216,6 +217,10 @@ body {
     .mainDis .selecPrenda input {
       margin: 1rem; }
   .mainDis .tablas {
+    border-inline-style: #EFDEC9;
+    border-style: unset;
+    letter-spacing: 3px;
+    word-spacing: 1rem;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;

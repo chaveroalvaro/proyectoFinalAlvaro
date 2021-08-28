@@ -162,6 +162,7 @@ body{
 }
 
 .mainDis{
+    color: $colorBeige;
     font-family: 'Bebas Neue', cursive;    
     line-height: 2rem;
         
@@ -188,6 +189,10 @@ body{
         input{margin: 1rem;}
     }
     .tablas{
+        border-inline-style: $colorBeige;
+        border-style: unset;
+        letter-spacing: 3px;
+        word-spacing: 1rem;
         @include flex(flex,row,space-evenly,center)
     }
 }
